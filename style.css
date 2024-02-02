@@ -137,16 +137,33 @@ body {
 .main-body {
     flex: 1 1 1000px;
     padding-left: 50px;
-    /* padding: 0 0 0 30px; */
+
 }
 
 .box-3 {
-    background-color: azure;
+    display: flex;
+    /* background-color: azure; */
     border-radius: 10px;
+    /* align-items: center; */
+
+
+
 }
 
 .box-3 p {
     padding: 5px 8px;
+}
+
+.pugarea {
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 0 0 500px;
+    align-items: center;
+}
+
+.pugarea>img {
+    max-width: 30%;
+
 }
 
 .columns {
