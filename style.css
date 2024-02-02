@@ -157,12 +157,12 @@ body {
 .pugarea {
     display: flex;
     flex-direction: column-reverse;
-    flex: 0 0 500px;
+    flex: 0 0 300px;
     align-items: center;
 }
 
 .pugarea>img {
-    max-width: 30%;
+    max-width: 25%;
 
 }
 
