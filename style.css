@@ -180,11 +180,13 @@ body {
     /* animation: pug 3s linear 0s 1 normal forwards; */
 }
 
-/* 
- .pugarea.animate1 {
- 
-    align-items: flex-end;
-}  */
+
+.pugarea.animate1 {
+    animation: pug 1s linear 0s 1 normal forwards;
+
+
+    /* align-items: flex-end; */
+}
 
 .pugarea img {
     width: 100px;
@@ -284,6 +286,10 @@ body {
 
     0% {
         align-items: flex-start;
+    }
+
+    50% {
+        align-items: center;
     }
 
 

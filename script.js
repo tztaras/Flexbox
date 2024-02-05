@@ -14,7 +14,7 @@ console.log('greetings universe!');
 let an1 = document.getElementById('main-pug');
 an1.addEventListener('click', () => {
     // alert('wuf!');
-    // let a = document.querySelector('.pugarea');
-    // a.classList.toggle('animate1');
+    let a = document.querySelector('.pugarea');
+    a.classList.toggle('animate1');
     
 });
