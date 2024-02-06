@@ -181,11 +181,35 @@ body {
 }
 
 
-.pugarea.animate1 {
-    animation: pug 1s linear 0s 1 normal forwards;
+.animate1 img {
+    /* animation: pug 1s linear 2s 1 normal forwards; */
+    /* translate(550px, 170px); */
+    transform: rotate(360deg) translate(29vw, 10vw);
+
+    transition: 6s;
+
 
 
     /* align-items: flex-end; */
+}
+
+@keyframes pug {
+
+    0% {
+        align-items: flex-start;
+    }
+
+    50% {
+        align-items: center;
+
+    }
+
+
+
+    100% {
+        align-items: flex-end;
+
+    }
 }
 
 .pugarea img {
