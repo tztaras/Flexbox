@@ -186,30 +186,76 @@ body {
     /* translate(550px, 170px); */
     transform: rotate(360deg) translate(29vw, 10vw);
 
+    filter: sepia(10);
     transition: 6s;
 
 
 
-    /* align-items: flex-end; */
+
 }
 
-@keyframes pug {
 
-    0% {
-        align-items: flex-start;
+
+
+.animate1-1 {
+    animation: animate1-1 4s linear forwards;
+    /* transform: rotate(1440deg); */
+
+
+    /* filter: saturate(200%); */
+
+    /* transition: 4s; */
+}
+
+@keyframes animate1-1 {
+
+
+
+    50% {
+        transform: translate(-10vw, -20vw);
+        /* filter: sepia(100%) */
+    }
+
+
+
+    /* 100% {
+        transform: translate(40vw, -40vw);
+       
+
+    } */
+}
+
+.animate3 {
+    animation: animate3 5s linear forwards;
+}
+
+@keyframes animate3 {
+    25% {
+        transform: rotate(180deg) translate(-10vw, 20vw);
     }
 
     50% {
-        align-items: center;
-
+        transform: rotate(180deg) translate(-15vw, 25vw);
     }
 
+    /* 100% {
+        transform: rotate(-720deg) translate(10vw, -20vw) rotate(-90deg);
+    } */
+}
 
+.animate4 {
+    animation: animate4 6s linear forwards;
+}
 
-    100% {
-        align-items: flex-end;
-
+@keyframes animate4 {
+    25% {
+        transform: translate(10vw, 10vw) rotate(360deg);
     }
+
+    50% {
+        transform: translate(-10vw, -10vw) rotate(360deg);
+    }
+
 }
 
 .pugarea img {
@@ -301,9 +347,10 @@ body {
 
 
 .pugarea img:hover {
-    scale: 1.1;
+    /* scale: 1.1; */
     opacity: 0.9;
-    transition: 2s;
+    filter: saturate(200%);
+    /* transition: 1s; */
 }
 
 @keyframes pug {
