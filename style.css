@@ -260,6 +260,13 @@ body {
 
 }
 
+.animate5 {
+    transform: rotate(360deg);
+    scale: 0.5;
+    filter: invert(100%);
+    transition: 5s;
+}
+
 .pugarea img {
     width: 100px;
     margin: 5px;

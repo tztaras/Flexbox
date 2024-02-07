@@ -37,3 +37,14 @@ let an3 = document.querySelector('.pug2').addEventListener('click', () => {
 let an4 = document.querySelector('.pug3').addEventListener('click', () => {
     let a = document.querySelector('.pug3').classList.toggle('animate4');
 });
+
+// let an5 = document.querySelector('.pug4').addEventListener('click', () => {
+//     let a = document.querySelector('.pug4').classList.toggle('animate5');
+// })
+
+let an6 = document.querySelector('.pug4').addEventListener('dblclick', () => {
+    let a = document.querySelector('.pug4');
+    a.style.transition = '2s';
+    a.style.transform = (a.style.transform === 'rotate(180deg)') ? 'rotate(0deg)' : 'rotate(180deg)';
+    a.style.filter = (a.style.filter === 'invert(100%)') ? 'invert(0%)' : 'invert(100%)';
+})
