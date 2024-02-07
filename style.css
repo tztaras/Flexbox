@@ -198,7 +198,9 @@ body {
 
 
 .animate1-1 {
-    animation: animate1-1 4s linear forwards;
+    /* name, duration timing-function iteration-count direction delay */
+    animation: animate1-1 8s linear 2 alternate 0s forwards;
+
     /* transform: rotate(1440deg); */
 
 
@@ -207,24 +209,29 @@ body {
     /* transition: 4s; */
 }
 
+.animate1-1:hover {
+    animation-play-state: paused;
+}
+
 @keyframes animate1-1 {
 
-    0% {
-        transform: rotate(360deg);
+    10% {
+        transform: translate(-1vw, 15vw);
     }
 
     50% {
-        transform: translate(-10vw, -20vw);
+        transform: translate(-12vw, 5vw);
+        /* border-radius: 50px; */
         /* filter: sepia(100%) */
     }
 
 
 
-    /* 100% {
+    100% {
         transform: translate(40vw, -40vw);
-       
 
-    } */
+
+    }
 }
 
 .animate3 {

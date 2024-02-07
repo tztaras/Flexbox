@@ -47,4 +47,4 @@ let an6 = document.querySelector('.pug4').addEventListener('dblclick', () => {
     a.style.transition = '2s';
     a.style.transform = (a.style.transform === 'rotate(180deg)') ? 'rotate(0deg)' : 'rotate(180deg)';
     a.style.filter = (a.style.filter === 'invert(100%)') ? 'invert(0%)' : 'invert(100%)';
-})
+});
