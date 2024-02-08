@@ -365,21 +365,21 @@ body {
 }
 
 .wave-btn-waves:before {
-    background-color: rgb(46, 46, 44);
-    border-radius: 50%;
-    animation: waves 20s infinite linear;
+    background-color: rgb(0, 0, 0);
+    border-radius: 38%;
+    animation: waves 55s infinite linear;
 }
 
 .wave-btn-waves:after {
-    background-color: rgb(39, 41, 41);
-    border-radius: 40%;
-    animation: waves 20s infinite linear;
+    background-color: rgb(0, 0, 0);
+    border-radius: 51%;
+    animation: waves 60s infinite linear;
 }
 
 
 @keyframes waves {
     0% {
-        transform: translate3d(-50%, -96%, 0) rotate(0deg) scale(1);
+        transform: translate3d(-50%, -95%, 0) rotate(0deg) scale(1);
     }
 
 
