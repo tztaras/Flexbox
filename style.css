@@ -365,14 +365,14 @@ body {
 }
 
 .wave-btn-waves:before {
-    background-color: rgb(0, 0, 0);
-    border-radius: 38%;
+    background-color: rgba(0, 0, 0, 0.952);
+    border-radius: 41%;
     animation: waves 55s infinite linear;
 }
 
 .wave-btn-waves:after {
     background-color: rgb(0, 0, 0);
-    border-radius: 51%;
+    border-radius: 49%;
     animation: waves 60s infinite linear;
 }
 
