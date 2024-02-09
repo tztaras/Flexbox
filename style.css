@@ -314,7 +314,7 @@ body {
     height: 60px;
     display: flex;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px rgb(138, 138, 77);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
     /* border-radius: 0 0 10px 10px; */
     text-decoration: none;
     justify-content: center;
@@ -331,6 +331,11 @@ body {
     -o-transition: all 0.8s ease 0s; */
 
 
+}
+
+.wave-btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 20px rgba(255, 230, 0, 0.541);
 }
 
 .wave-btn-text {

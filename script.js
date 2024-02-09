@@ -11,7 +11,7 @@ console.log('greetings universe!');
 //     pugout.append(img);
 // }
 
-let an1 = document.getElementById('main-pug');
+let an1 = document.querySelector('.wave-btn');
 an1.addEventListener('click', () => {
     // alert('wuf!');
     let a = document.querySelector('.pugarea');
