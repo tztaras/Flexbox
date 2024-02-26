@@ -236,7 +236,7 @@ body {
 }
 
 .animate3 {
-    animation: animate3 5s linear forwards;
+    animation: animate3 5s linear 2 alternate 0s forwards;
 }
 
 @keyframes animate3 {
@@ -248,9 +248,9 @@ body {
         transform: rotate(180deg) translate(-15vw, 25vw);
     }
 
-    /* 100% {
+    100% {
         transform: rotate(-720deg) translate(10vw, -20vw) rotate(-90deg);
-    } */
+    }
 }
 
 .animate4 {
