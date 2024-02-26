@@ -282,10 +282,14 @@ body {
 }
 
 .boxforsmoke {
-    background-color: none;
-    border: 1px solid rgb(255, 255, 255);
-    overflow: hidden;
-    height: 80px;
+    /* position: relative;
+
+    left: 30%;
+    background-color: none; */
+    /* border: 1px solid rgb(255, 255, 255); */
+    /* overflow: hidden; */
+    /* height: 80px;
+    width: 80px; */
 }
 
 #smoke {
