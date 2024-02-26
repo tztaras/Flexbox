@@ -199,7 +199,7 @@ body {
 
 
 .animate1-1 {
-    /* name, duration timing-function iteration-count direction delay */
+    /* name, duration timing-function iteration-count direction delay fill-mode*/
     animation: animate1-1 8s linear 2 alternate 0s forwards;
 
     /* transform: rotate(1440deg); */
