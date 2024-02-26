@@ -144,7 +144,7 @@ body {
 }
 
 .main-body {
-    flex: 1 1 1000px;
+    flex: 1 1 2000px;
     padding-left: 50px;
 
 
@@ -279,13 +279,110 @@ body {
     width: 100px;
     margin: 5px;
     box-shadow: 0px 0px 5px 2px #888888;
+}
 
+.boxforsmoke {
+    background-color: none;
+    border: 1px solid rgb(255, 255, 255);
+    overflow: hidden;
+    height: 80px;
+}
 
+#smoke {
+    position: relative;
+    z-index: 3;
+    width: 1px;
+    height: 80px;
+    left: 50%;
+    bottom: 50%;
+    transform: rotate(25deg);
+}
 
+#smoke span {
+    display: block;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    margin-left: -20px;
+    height: 0px;
+    width: 0px;
+    border: 15px dotted rgb(255, 255, 255);
+    border-radius: 15px;
+    left: -14px;
+    opacity: 0;
+    transform: scale(0.2);
+}
 
+#smoke .s0 {
+    animation: smokeL 10s 0s infinite;
+}
 
+#smoke .s1 {
+    animation: smokeR 10s 1s infinite;
+}
 
+#smoke .s2 {
+    animation: smokeL 10s 2s infinite;
+}
 
+#smoke .s3 {
+    animation: smokeR 10s 3s infinite;
+}
+
+#smoke .s4 {
+    animation: smokeL 10s 4s infinite;
+}
+
+#smoke .s5 {
+    animation: smokeR 10s 5s infinite;
+}
+
+#smoke .s6 {
+    animation: smokeL 10s 6s infinite;
+}
+
+#smoke .s7 {
+    animation: smokeR 10s 7s infinite;
+}
+
+#smoke .s8 {
+    animation: smokeL 10s 8s infinite;
+}
+
+#smoke .s9 {
+    animation: smokeR 10s 9s infinite;
+}
+
+@keyframes smokeL {
+    0% {
+        transform: scale(0.2) translate(0, 0);
+    }
+
+    10% {
+        opacity: 1;
+        transform: scale(0.2) translate(0, -5px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1) translate(-20px, -130px);
+    }
+}
+
+@keyframes smokeR {
+    0% {
+        transform: scale(0.2) translate(0, 0);
+    }
+
+    10% {
+        opacity: 1;
+        transform: scale(0.2) translate(0, -5px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1) translate(20px, -130px);
+    }
 
 }
 
