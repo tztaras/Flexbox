@@ -129,11 +129,12 @@ body {
 
 .main-row {
     display: flex;
+    gap: 10px;
 
 }
 
 .main-img {
-    flex: 1 1 auto;
+    flex: 1 1 50%;
 }
 
 .main-img img {
@@ -144,8 +145,8 @@ body {
 }
 
 .main-body {
-    flex: 1 1 2000px;
-    padding-left: 50px;
+    flex: 1 1 50%;
+    /* padding-left: 50px; */
 
 
 }
@@ -176,7 +177,11 @@ body {
     /* transition: all 10s ease; */
     /* flex-direction: column; */
     flex: 1 1 auto;
+    place-items: center;
+    /* text-align: center; */
     /* align-items: center; */
+    /* justify-content: center; */
+    /* align-content: center; */
 
     /* animation: pug 3s linear 0s 1 normal forwards; */
 }
