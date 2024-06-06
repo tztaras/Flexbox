@@ -577,15 +577,8 @@ body {
 }
 
 .blur_object {
-    /* width: 300px;
-    height: 200px; */
-    /* background: rgba(255, 255, 255, 0.3); */
-    /* background-image: url('./img/pug-4.webp'); */
-    /* Semi-transparent background */
     backdrop-filter: blur(60px);
     min-height: 220px;
-
-    /* Apply blur effect */
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -598,11 +591,7 @@ body {
 }
 
 .footer {
-
     background-color: aliceblue;
-
-
-
 }
 
 .footer-row {
