@@ -424,8 +424,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 280px; */
-
 }
 
 .wave-btn {
@@ -434,22 +432,13 @@ body {
     display: flex;
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgb(0, 0, 0);
-    /* border-radius: 0 0 10px 10px; */
     text-decoration: none;
     justify-content: center;
     align-items: center;
-
     transition: all 0.8s ease 0s;
     -webkit-transition: all 0.8s ease 0s;
-
-
     overflow: hidden;
     position: relative;
-    /* -moz-transition: all 0.8s ease 0s;
-    -ms-transition: all 0.8s ease 0s;
-    -o-transition: all 0.8s ease 0s; */
-
-
 }
 
 .wave-btn:hover {
@@ -518,7 +507,6 @@ body {
     background-color: aliceblue;
     padding: 5px;
     border-radius: 10px;
-
 }
 
 .columns-title h3 {
@@ -528,12 +516,10 @@ body {
 .columns-row {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .column {
     flex: 0 1 50%;
-
 }
 
 
