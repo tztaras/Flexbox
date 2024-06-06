@@ -565,15 +565,11 @@ body {
 
 .blurpractice {
     background-image: url('./img/pug-4.webp');
-
-    /* width: fit-content; */
     margin-top: 5px;
-    /* min-width: 200px; */
     min-height: 220px;
     background-size: cover;
     border-radius: 15px;
     background-color: rgb(204, 236, 24);
-
 }
 
 .blur_object {
