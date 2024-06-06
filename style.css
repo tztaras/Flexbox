@@ -152,7 +152,7 @@ body {
 
 .main-body {
     flex: 1 1 50%;
-    /* padding-left: 50px; */
+
 
 
 }
@@ -403,10 +403,13 @@ body {
 }
 
 .main-text {
-    backdrop-filter: blur(100px);
-    /* background-color: aliceblue; */
-    background-image: url('./img/pug-4.webp');
+    background: rgba(255, 255, 255, 0.979);
+    /* Semi-transparent background */
+    /* backdrop-filter: blur(100px); */
+    /* color: aqua; */
+    /* background-image: url('./img/pug-4.webp'); */
     border-radius: 10px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
     padding-bottom: 10px;
 }
 
@@ -557,6 +560,41 @@ body {
     color: #2e3e53;
     font-weight: 700;
     padding: 3px 0 0px 0;
+}
+
+
+.blurpractice {
+    background-image: url('./img/pug-4.webp');
+
+    /* width: fit-content; */
+    margin-top: 5px;
+    /* min-width: 200px; */
+    min-height: 220px;
+    background-size: cover;
+    border-radius: 15px;
+    background-color: rgb(204, 236, 24);
+
+}
+
+.blur_object {
+    /* width: 300px;
+    height: 200px; */
+    /* background: rgba(255, 255, 255, 0.3); */
+    /* background-image: url('./img/pug-4.webp'); */
+    /* Semi-transparent background */
+    backdrop-filter: blur(60px);
+    min-height: 220px;
+
+    /* Apply blur effect */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ece7e7;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
