@@ -7,25 +7,13 @@ body {
 .block {
     display: flex;
     border: 10px solid rgb(240, 240, 240);
-    /* justify-content: space-between; */
-    /* align-items: center; */
     flex-direction: column;
     height: 900px;
 }
 
 .block-column {
     display: flex;
-    /* align-self: flex-end; */
     border: 20px dotted greenyellow;
-    /* margin: 20px; */
-    /* flex-basis: 25%; */
-
-
-    /* flex-basis: 300px;
-    flex-grow: 0;
-    flex-shrink: 1; */
-    /* flex: 0 1 200px; */
-
 }
 
 .block-item {
@@ -34,14 +22,10 @@ body {
     font-size: 50px;
     color: rgb(255, 155, 4);
     font-weight: 900;
-    /* border-radius: 20px; */
-
 }
 
 #first {
     align-self: flex-start;
-    /* order: 3; */
-    /* flex-basis: 15%; */
 }
 
 
@@ -52,14 +36,6 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
-
-
-
-
-
-
-
 }
 
 
