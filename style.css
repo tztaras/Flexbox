@@ -46,23 +46,18 @@ body {
 }
 
 .content {
-
     flex: 1 1 auto;
-
-
 }
 
 
 .hi {
     background-color: rgba(58, 84, 88, 0.459);
     padding: 50px 0;
-
 }
 
 .hi-row {
     display: flex;
     justify-content: space-between;
-
 }
 
 .hi-body {
@@ -88,8 +83,6 @@ body {
     font-size: 20px;
     line-height: 25px;
     padding-right: 15px;
-
-
 }
 
 .hi-mage {
@@ -100,7 +93,6 @@ body {
 .hi-mage img {
     max-width: 100%;
     border-radius: 10px;
-
     outline: 3px solid rgba(89, 89, 221, 0.74);
 }
 
@@ -123,25 +115,11 @@ body {
     max-width: 100%;
     border-radius: 10px;
     /* filter: sepia(20%); */
-
 }
 
 .main-body {
     flex: 1 1 50%;
-
-
-
 }
-
-/* .box-3 {
-    display: flex;
-    background-color: azure;
-    border-radius: 10px;
-    align-items: center;
-
-
-
-} */
 
 .box-3 p {
     padding: 5px 8px;
@@ -150,22 +128,13 @@ body {
 .pugarea {
     background-color: aliceblue;
     border-radius: 10px;
-    /* height: 300px; */
     min-height: 300px;
     max-height: fit-content;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    /* transition: all 10s ease; */
-    /* flex-direction: column; */
     flex: 1 1 auto;
     place-items: center;
-    /* text-align: center; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* align-content: center; */
-
-    /* animation: pug 3s linear 0s 1 normal forwards; */
 }
 
 
