@@ -139,10 +139,7 @@ body {
 
 
 .animate1 img {
-    /* animation: pug 1s linear 2s 1 normal forwards; */
-    /* translate(550px, 170px); */
     transform: rotate(360deg) translate(29vw, 10vw);
-
     filter: sepia(10);
     transition: 6s;
 
